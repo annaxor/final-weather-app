@@ -96,7 +96,7 @@ a {
   opacity: 0.6;
 }
 
-.gif-card {
+.col-6 .gif-card {
   width: 90%;
   padding: 0;
   clip-path: inset(0 10% 0 round 10px);
