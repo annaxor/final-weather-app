@@ -52,8 +52,8 @@ function displayTemperature(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
   let gifElement = document.querySelector("#gif");
-  gifElement.setAttribute("src", `gif/day-scattered-clouds.gif`);
-  gifElement.setAttribute("alt", response.data.weather[0].description);
+  gifElement.setAttribute("src", `gif/${response.data.weather[0].main}.gif`);
+
   getForecast(response.data.coord);
 }
 
