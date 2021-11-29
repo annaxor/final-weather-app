@@ -6,7 +6,7 @@ h1 {
   color: #878787;
   font-size: 35px;
   font-weight: 100;
-  line-height: 28px;
+  line-height: 30px;
   margin-bottom: 0;
   margin-top: 25px;
   font-weight: bold;
@@ -41,7 +41,7 @@ a {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
 }
 
@@ -95,9 +95,7 @@ a {
 .weather-forecast-temperature-min {
   opacity: 0.6;
 }
-
-.col-6 .gif-card {
-  width: 90%;
+.gif-card {
   padding: 0;
-  clip-path: inset(0 10% 0 round 10px);
+  clip-path: inset(0 5% 0 round 10px);
 }
