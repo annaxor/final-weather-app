@@ -1,9 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(
-    179.4deg,
-    rgb(253, 240, 233) 2.2%,
-    rgb(255, 194, 203) 96.2%
+  background: radial-gradient(
+    329px at 3.1% 9.3%,
+    rgb(251, 204, 235) 28.1%,
+    rgba(221, 221, 221, 0.15) 100.7%
   );
 }
 
